@@ -55,7 +55,7 @@ export default function Home() {
   }, [sortBy, cryptoList]);
 
   return (
-    <div className=" min-h-screen bg-zinc-50 font-sans dark:bg-black">
+    <div className=" min-h-screen font-sans bg-black">
       <header className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 py-6">
           <div className="space-y-2">
